@@ -2,6 +2,7 @@
 
 import argparse
 from concurrent.futures import ThreadPoolExecutor
+import hashlib
 import html
 import json
 import os
@@ -100,18 +101,52 @@ def fetch_counts(repository, token=None):
     })
 
 
-def render_counts(repository, counts):
+def render_stats_svg(repository, counts):
     validate_counts(counts)
-    entries = []
-    for kind, endpoint in (('stars', 'stargazers'), ('forks', 'forks'), ('downloads', 'releases')):
+    shapes = {
+        'stars': '<path d="m8 1.4 2.04 4.14 4.57.66-3.31 3.22.78 4.56L8 11.83l-4.08 2.15.78-4.56L1.39 6.2l4.57-.66L8 1.4Z"/>',
+        'forks': '<circle cx="4" cy="3" r="1.7"/><circle cx="12" cy="3" r="1.7"/><circle cx="8" cy="13" r="1.7"/><path d="M4 4.7V6a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4.7M8 8v3.3"/>',
+        'downloads': '<path d="M8 1.5v8m-3-3 3 3 3-3M2.5 10.5v3h11v-3"/>',
+    }
+    groups, labels, offset = [], [], 0
+    for kind in ('stars', 'forks', 'downloads'):
         value = counts[kind]
         if value == 0:
             continue
-        url = html.escape(f'https://github.com/{repository}/{endpoint}', quote=True)
-        icon = f'<img src="profile-assets/{kind}.svg" width="13" height="13" alt="{kind}">'
         label = 'GitHub release asset downloads' if kind == 'downloads' else kind
-        entries.append(f'<a href="{url}" title="{value} {label}">{icon} {value}</a>')
-    return ' &nbsp; <sup>' + ' &nbsp; '.join(entries) + '</sup>' if entries else ''
+        labels.append(f'{value} {label}')
+        color = '#e3b341' if kind == 'stars' else '#9198a1'
+        groups.append(
+            f'<g transform="translate({offset} 0)">'
+            f'<g fill="none" stroke="{color}" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">{shapes[kind]}</g>'
+            f'<text x="20" y="12" fill="#9198a1" font-family="monospace" font-size="11">{value}</text></g>'
+        )
+        offset += 20 + 7 * len(str(value)) + 10
+    if not groups:
+        return 0, '', ''
+    width = offset - 10
+    label = ', '.join(labels)
+    svg = (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="16" viewBox="0 0 {width} 16" role="img" aria-label="{html.escape(label,quote=True)}">'
+        f'<title>{html.escape(label)}</title>' + ''.join(groups) + '</svg>\n'
+    )
+    return width, svg, label
+
+
+def stats_filename(repository):
+    return repository.replace('/', '--') + '.svg'
+
+
+def render_counts(repository, counts):
+    width, svg, label = render_stats_svg(repository, counts)
+    if not svg:
+        return ''
+    version = hashlib.sha256(svg.encode('utf-8')).hexdigest()[:12]
+    source = f'profile-assets/counts/{stats_filename(repository)}?v={version}'
+    return (
+        f' &nbsp; <picture><img src="{source}" width="{width}" height="16" '
+        f'align="absmiddle" alt="{html.escape(label,quote=True)}" title="{html.escape(label,quote=True)}"></picture>'
+    )
 
 
 def refresh_markdown(markdown, counts):
@@ -137,12 +172,27 @@ def update_readme(readme, fetcher=fetch_counts, token=None):
     with ThreadPoolExecutor(max_workers=6) as pool:
         fetched = dict(zip(names, pool.map(lambda name: fetcher(name, token), names)))
     updated = refresh_markdown(original, fetched)
-    if updated == original:
-        return False
-    temporary = readme.with_name(readme.name + '.counts.tmp')
-    temporary.write_bytes(updated.encode('utf-8'))
-    temporary.replace(readme)
-    return True
+    changed = False
+    assets = readme.parent / 'profile-assets' / 'counts'
+    assets.mkdir(parents=True, exist_ok=True)
+    for name in names:
+        _, svg, _ = render_stats_svg(name, fetched[name])
+        target = assets / stats_filename(name)
+        if not svg:
+            if target.exists():
+                target.unlink()
+                changed = True
+        elif not target.exists() or target.read_bytes() != svg.encode('utf-8'):
+            temporary = target.with_suffix('.svg.tmp')
+            temporary.write_bytes(svg.encode('utf-8'))
+            temporary.replace(target)
+            changed = True
+    if updated != original:
+        temporary = readme.with_name(readme.name + '.counts.tmp')
+        temporary.write_bytes(updated.encode('utf-8'))
+        temporary.replace(readme)
+        changed = True
+    return changed
 
 
 def main():
