@@ -125,7 +125,7 @@ Scan book barcodes and automatically process the appropriate check-in or non-loa
 
 <tr>
 <td width="50%" valign="top">
-<p><strong><a href="https://github.com/jspann21/linnet">Linnet OS</a></strong><!-- repo-stats:jspann21/linnet:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--linnet.svg?v=1f71b7cd8b26" width="78" height="16" align="absmiddle" alt="11 stars, 11 GitHub release asset downloads" title="11 stars, 11 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/linnet:end --><br>
+<p><strong><a href="https://github.com/jspann21/linnet">Linnet OS</a></strong><!-- repo-stats:jspann21/linnet:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--linnet.svg?v=437014a1161f" width="78" height="16" align="absmiddle" alt="11 stars, 13 GitHub release asset downloads" title="11 stars, 13 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/linnet:end --><br>
 Alternative iPod firmware with a Windows media manager, click-wheel menus, themes, games, and tools for preparing music, photos, and video.</p>
 </td>
 <td width="50%" valign="top">
