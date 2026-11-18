@@ -125,7 +125,7 @@ Scan book barcodes and automatically process the appropriate check-in or non-loa
 
 <tr>
 <td width="50%" valign="top">
-<p><strong><a href="https://github.com/jspann21/linnet">Linnet OS</a></strong><!-- repo-stats:jspann21/linnet:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--linnet.svg?v=2704a0d91ad4" width="78" height="16" align="absmiddle" alt="16 stars, 39 GitHub release asset downloads" title="16 stars, 39 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/linnet:end --><br>
+<p><strong><a href="https://github.com/jspann21/linnet">Linnet OS</a></strong><!-- repo-stats:jspann21/linnet:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--linnet.svg?v=7126ad4f06f8" width="78" height="16" align="absmiddle" alt="16 stars, 43 GitHub release asset downloads" title="16 stars, 43 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/linnet:end --><br>
 Alternative iPod firmware with a Windows media manager, click-wheel menus, themes, games, and tools for preparing music, photos, and video.</p>
 </td>
 <td width="50%" valign="top">
@@ -148,7 +148,7 @@ My Rockbox fork focused on reliability, performance, storage compatibility, and 
 A Windows shell for ChatGPT with always-on-top controls, persistent sessions, and download management.</p>
 </td>
 <td width="50%" valign="top">
-<p><strong><a href="https://github.com/jspann21/codex-bar">CodexBar</a></strong><!-- repo-stats:jspann21/codex-bar:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--codex-bar.svg?v=ca7cf25024d5" width="108" height="16" align="absmiddle" alt="1 stars, 2 forks, 87 GitHub release asset downloads" title="1 stars, 2 forks, 87 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/codex-bar:end --><br>
+<p><strong><a href="https://github.com/jspann21/codex-bar">CodexBar</a></strong><!-- repo-stats:jspann21/codex-bar:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--codex-bar.svg?v=856579a2b981" width="108" height="16" align="absmiddle" alt="1 stars, 2 forks, 89 GitHub release asset downloads" title="1 stars, 2 forks, 89 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/codex-bar:end --><br>
 A compact Windows widget showing remaining weekly Codex capacity and upcoming resets.</p>
 </td>
 </tr>
