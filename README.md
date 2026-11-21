@@ -144,7 +144,7 @@ My Rockbox fork focused on reliability, performance, storage compatibility, and 
 
 <tr>
 <td width="50%" valign="top">
-<p><strong><a href="https://github.com/jspann21/ChatGPT-Desktop">ChatGPT Desktop</a></strong><!-- repo-stats:jspann21/ChatGPT-Desktop:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--ChatGPT-Desktop.svg?v=5f481fde042f" width="34" height="16" align="absmiddle" alt="34 GitHub release asset downloads" title="34 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/ChatGPT-Desktop:end --><br>
+<p><strong><a href="https://github.com/jspann21/ChatGPT-Desktop">ChatGPT Desktop</a></strong><!-- repo-stats:jspann21/ChatGPT-Desktop:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--ChatGPT-Desktop.svg?v=72d661a97364" width="34" height="16" align="absmiddle" alt="35 GitHub release asset downloads" title="35 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/ChatGPT-Desktop:end --><br>
 A Windows shell for ChatGPT with always-on-top controls, persistent sessions, and download management.</p>
 </td>
 <td width="50%" valign="top">
