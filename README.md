@@ -125,7 +125,7 @@ Scan book barcodes and automatically process the appropriate check-in or non-loa
 
 <tr>
 <td width="50%" valign="top">
-<p><strong><a href="https://github.com/jspann21/linnet">Linnet OS</a></strong><!-- repo-stats:jspann21/linnet:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--linnet.svg?v=7aad09c23a5d" width="78" height="16" align="absmiddle" alt="18 stars, 54 GitHub release asset downloads" title="18 stars, 54 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/linnet:end --><br>
+<p><strong><a href="https://github.com/jspann21/linnet">Linnet OS</a></strong><!-- repo-stats:jspann21/linnet:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--linnet.svg?v=0e1d3fca6883" width="78" height="16" align="absmiddle" alt="18 stars, 57 GitHub release asset downloads" title="18 stars, 57 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/linnet:end --><br>
 Alternative iPod firmware with a Windows media manager, click-wheel menus, themes, games, and tools for preparing music, photos, and video.</p>
 </td>
 <td width="50%" valign="top">
@@ -155,7 +155,7 @@ A compact Windows widget showing remaining weekly Codex capacity and upcoming re
 
 <tr>
 <td width="50%" valign="top">
-<p><strong><a href="https://github.com/jspann21/gmail-desktop">Gmail Desktop</a></strong><!-- repo-stats:jspann21/gmail-desktop:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--gmail-desktop.svg?v=7ceba87c8efa" width="27" height="16" align="absmiddle" alt="7 GitHub release asset downloads" title="7 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/gmail-desktop:end --><br>
+<p><strong><a href="https://github.com/jspann21/gmail-desktop">Gmail Desktop</a></strong><!-- repo-stats:jspann21/gmail-desktop:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--gmail-desktop.svg?v=5a68641f4311" width="27" height="16" align="absmiddle" alt="9 GitHub release asset downloads" title="9 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/gmail-desktop:end --><br>
 Multiple Gmail accounts in one Windows app, with separate sign-ins and adjustable memory use.</p>
 </td>
 <td width="50%" valign="top">
