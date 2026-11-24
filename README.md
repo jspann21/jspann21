@@ -155,7 +155,7 @@ A compact Windows widget showing remaining weekly Codex capacity and upcoming re
 
 <tr>
 <td width="50%" valign="top">
-<p><strong><a href="https://github.com/jspann21/gmail-desktop">Gmail Desktop</a></strong><!-- repo-stats:jspann21/gmail-desktop:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--gmail-desktop.svg?v=5a68641f4311" width="27" height="16" align="absmiddle" alt="9 GitHub release asset downloads" title="9 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/gmail-desktop:end --><br>
+<p><strong><a href="https://github.com/jspann21/gmail-desktop">Gmail Desktop</a></strong><!-- repo-stats:jspann21/gmail-desktop:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--gmail-desktop.svg?v=1b8e557f7ce6" width="34" height="16" align="absmiddle" alt="10 GitHub release asset downloads" title="10 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/gmail-desktop:end --><br>
 Multiple Gmail accounts in one Windows app, with separate sign-ins and adjustable memory use.</p>
 </td>
 <td width="50%" valign="top">
