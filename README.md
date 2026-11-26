@@ -62,7 +62,7 @@ An experimental Greek toolkit combining vocabulary review, morphology exploratio
 Explore the Hebrew word שָׁנָה (“year”) through grammatical filters, statistics, and visualizations.</p>
 </td>
 <td width="50%" valign="top">
-<p><strong><a href="https://github.com/jspann21/spiritual-disciplines">Spiritual Disciplines</a></strong><!-- repo-stats:jspann21/spiritual-disciplines:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--spiritual-disciplines.svg?v=977a3b5d11ad" width="27" height="16" align="absmiddle" alt="1 GitHub release asset downloads" title="1 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/spiritual-disciplines:end --><br>
+<p><strong><a href="https://github.com/jspann21/spiritual-disciplines">Spiritual Disciplines</a></strong><!-- repo-stats:jspann21/spiritual-disciplines:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--spiritual-disciplines.svg?v=bcbe06b7163a" width="27" height="16" align="absmiddle" alt="2 GitHub release asset downloads" title="2 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/spiritual-disciplines:end --><br>
 An Android app for Bible reading, prayer requests, Scripture memory, journaling, and daily practice tracking.</p>
 </td>
 </tr>
@@ -125,7 +125,7 @@ Scan book barcodes and automatically process the appropriate check-in or non-loa
 
 <tr>
 <td width="50%" valign="top">
-<p><strong><a href="https://github.com/jspann21/linnet">Linnet OS</a></strong><!-- repo-stats:jspann21/linnet:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--linnet.svg?v=0e1d3fca6883" width="78" height="16" align="absmiddle" alt="18 stars, 57 GitHub release asset downloads" title="18 stars, 57 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/linnet:end --><br>
+<p><strong><a href="https://github.com/jspann21/linnet">Linnet OS</a></strong><!-- repo-stats:jspann21/linnet:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--linnet.svg?v=a8e9ae8f1294" width="78" height="16" align="absmiddle" alt="19 stars, 57 GitHub release asset downloads" title="19 stars, 57 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/linnet:end --><br>
 Alternative iPod firmware with a Windows media manager, click-wheel menus, themes, games, and tools for preparing music, photos, and video.</p>
 </td>
 <td width="50%" valign="top">
