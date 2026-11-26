@@ -88,7 +88,7 @@ Paste writing containing Bible references and get the referenced verse text back
 An Android book wish list that saves shared store links, compares prices, and tracks price changes.</p>
 </td>
 <td width="50%" valign="top">
-<p><strong><a href="https://github.com/jspann21/LuminaLibrary">Lumina Library</a></strong><!-- repo-stats:jspann21/LuminaLibrary:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--LuminaLibrary.svg?v=cb21ece4ae88" width="34" height="16" align="absmiddle" alt="28 GitHub release asset downloads" title="28 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/LuminaLibrary:end --><br>
+<p><strong><a href="https://github.com/jspann21/LuminaLibrary">Lumina Library</a></strong><!-- repo-stats:jspann21/LuminaLibrary:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--LuminaLibrary.svg?v=460b9fc5771d" width="34" height="16" align="absmiddle" alt="29 GitHub release asset downloads" title="29 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/LuminaLibrary:end --><br>
 Organize and search local PDF and EPUB collections with cover browsing, metadata lookup, and tags.</p>
 </td>
 </tr>
