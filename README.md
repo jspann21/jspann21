@@ -148,7 +148,7 @@ My Rockbox fork focused on reliability, performance, storage compatibility, and 
 A Windows shell for ChatGPT with always-on-top controls, persistent sessions, and download management.</p>
 </td>
 <td width="50%" valign="top">
-<p><strong><a href="https://github.com/jspann21/codex-bar">CodexBar</a></strong><!-- repo-stats:jspann21/codex-bar:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--codex-bar.svg?v=89c3df0db609" width="108" height="16" align="absmiddle" alt="1 stars, 2 forks, 92 GitHub release asset downloads" title="1 stars, 2 forks, 92 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/codex-bar:end --><br>
+<p><strong><a href="https://github.com/jspann21/codex-bar">CodexBar</a></strong><!-- repo-stats:jspann21/codex-bar:start --> &nbsp; <picture><img src="profile-assets/counts/jspann21--codex-bar.svg?v=d68900a8210c" width="108" height="16" align="absmiddle" alt="1 stars, 2 forks, 93 GitHub release asset downloads" title="1 stars, 2 forks, 93 GitHub release asset downloads"></picture><!-- repo-stats:jspann21/codex-bar:end --><br>
 A compact Windows widget showing remaining weekly Codex capacity and upcoming resets.</p>
 </td>
 </tr>
